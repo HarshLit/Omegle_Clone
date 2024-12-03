@@ -1,0 +1,172 @@
+
+# 2024-06-25 12:53:41.390412
++/help
+
+# 2024-06-25 12:53:48.495624
++/add Lib
+
+# 2024-06-25 12:54:03.669408
++/ls
+
+# 2024-06-25 12:54:13.163631
++Explain the code
+
+# 2024-06-25 12:54:53.983552
++commit this changes to the repo
+
+# 2024-06-25 12:55:15.029787
++/help
+
+# 2024-06-25 12:55:36.779227
++/commit
+
+# 2024-06-25 12:56:24.460866
++Cmd('git') failed due to: exit code(1)
++  cmdline: git add C:\Users\91904\Documents\Codes\Omegle Clone\app.py
++  stderr: 'The following paths are ignored by one of your .gitignore files:
++app.py
++hint: Use -f if you really want to add them.
++hint: Turn this message off by running
++hint: "git config advice.addIgnoredFile false"'
+
+# 2024-06-25 13:00:22.594468
++run this app.py
+
+# 2024-06-25 13:00:35.999863
++/help
+
+# 2024-06-25 13:00:46.842262
++/run python app.py
+
+# 2024-06-25 13:11:08.895088
++/run cd Scripts
+
+# 2024-06-25 13:11:23.914353
++/run dir
+
+# 2024-06-25 13:13:57.062644
++/run python app.py
+
+# 2024-06-25 13:25:10.390361
++What is inside this repo?
+
+# 2024-06-25 13:25:29.673510
++/ls
+
+# 2024-06-25 13:25:40.547469
++/add app.py
+
+# 2024-06-25 13:26:10.103546
++/tokens
+
+# 2024-06-25 13:31:35.136297
++hi
+
+# 2024-06-25 13:31:53.705891
++/add app.py
+
+# 2024-06-25 13:32:51.933473
++How can i deploy this app?
+
+# 2024-06-25 14:22:45.190809
++Suggest a free alternative to deploy this app.
+
+# 2024-06-25 14:23:00.741380
++Yes please
+
+# 2024-06-25 14:27:38.241452
++create a requirements.txt according to the app.pu
+
+# 2024-06-25 14:36:18.940791
++Internal Server Error
++The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application. While setting up the pythonanywhere setup
+
+# 2024-06-25 14:41:21.373376
++Traceback (most recent call last):
++  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
++    response = self.full_dispatch_request()
++  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
++    rv = self.handle_user_exception(e)
++  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
++    rv = self.dispatch_request()
++  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
++    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
++  File "/home/AIharshit/./app.py", line 22, in index
++    return render_template('index.html')
++  File "/usr/local/lib/python3.10/site-packages/flask/templating.py", line 149, in render_template
++    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
++  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
++    return self.get_template(template_name_or_list, parent, globals)
++  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
++    return self._load_template(name, globals)
++  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
++    template = self.loader.load(self, name, self.make_globals(globals))
++  File "/usr/local/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
++    source, filename, uptodate = self.get_source(environment, name)
++  File "/usr/local/lib/python3.10/site-packages/flask/templating.py", line 59, in get_source
++    return self._get_source_fast(environment, template)
++  File "/usr/local/lib/python3.10/site-packages/flask/templating.py", line 95, in _get_source_fast
++    raise TemplateNotFound(template)
++jinja2.exceptions.TemplateNotFound: index.html
+
+# 2024-06-25 14:43:43.054609
++2024-06-25 09:12:34,004: Error running WSGI application
++2024-06-25 09:12:34,006: ModuleNotFoundError: No module named 'app'
++2024-06-25 09:12:34,006:   File "/var/www/aiharshit_pythonanywhere_com_wsgi.py", line 13, in <module>
++2024-06-25 09:12:34,006:     from app import app as application
++2024-06-25 09:12:34,006: ***************************************************
++2024-06-25 09:12:34,006: If you're seeing an import error and don't know why,
++2024-06-25 09:12:34,006: we have a dedicated help page to help you debug: 
++2024-06-25 09:12:34,006: https://help.pythonanywhere.com/pages/DebuggingImportError/
++2024-06-25 09:12:34,006: ***************************************************
+
+# 2024-06-25 15:47:35.517728
++/add static/script.js
+
+# 2024-06-25 15:48:04.180200
++/add static/style.css
+
+# 2024-06-25 15:48:31.693464
++/add templates/index.html
+
+# 2024-06-25 15:48:42.361503
++/ls
+
+# 2024-06-25 15:49:00.692602
++Make the `app.py`
+
+# 2024-06-25 15:51:15.627487
++Make the `app.py` more robust and faster pairing of users, also edit the JS to show the `active_chats` correctly, overall make this work better as right now no users are getting shown in the "strangers online" and they can't seem to connect with each other as well.
+
+# 2024-06-25 15:51:52.106646
++/add app.py
+
+# 2024-06-25 15:51:57.866606
++Do it
+
+# 2024-06-25 15:52:21.798630
++/ls
+
+# 2024-06-25 15:52:35.608101
++/add static/script.js
+
+# 2024-06-25 15:52:41.212966
++/add app.py
+
+# 2024-06-25 15:52:47.740873
++/add templates/index.html
+
+# 2024-06-25 15:52:56.259183
++/add static/style.css
+
+# 2024-06-25 15:53:04.669989
++Make the `app.py` more robust and faster pairing of users, also edit the JS to show the `active_chats` correctly, overall make this work better as right now no users are getting shown in the "strangers online" and they can't seem to connect with each other as well.
+
+# 2024-06-25 15:59:19.076815
++I can't connect with other user even when the page is loaded on both devices.
+
+# 2024-06-25 16:09:07.331229
++Update this app such that two users can put their ids in to connect with each other.
+
+# 2024-06-25 16:13:48.225403
++Apply these changes to files
